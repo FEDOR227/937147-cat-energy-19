@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Федор Колтырин](https://up.htmlacademy.ru/adaptive/19/user/937147).
-* Наставник: `Неизвестно`.
+* Наставник: `Самостоятельно`.
 
 ---
 
