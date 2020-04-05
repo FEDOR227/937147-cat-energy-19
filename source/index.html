@@ -4,9 +4,115 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
+
   <body>
+    <header class="page-header" >
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="195" height="43" alt="CAT ENERGY">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__menu">ГЛАВНАЯ</a>
+            </li>
+            <li class="site-list__item">
+               <a class="site-list__menu" href="catalog.html">КАТАЛОГ ПРОДУКЦИИ</a>
+            </li>
+            <li class="site-list__item">
+               <a class="site-list__menu" href="form.html">ПОДБОР ПРОГРАММЫ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-header__img">
+        <h2 class="page-header-img1">Фунциональное питание для котов</h2>
+        <p class="page-header-img2">ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
+      </div>
+    </header>
+    <main class="container">
+      <span class="big">
+        <a class="big-button" href="form.html">ПОДОБРАТЬ ПРОГРАММУ</a>
+      </span>
+      <section class="advertising-item">
+        <ul class="advertising-item__list">
+          <li class="advertising-item__inventory">
+            <h3 class="advertising-item__title">ПОХУДЕНИЕ</h3>
+            <p class="advertising-item__paragraph">
+              Ваш кот весит больше собаки и
+              почти утратил спсобность лазить
+              по деревьям? Пора на диету! Cat
+              Energy Slim поможет вашему
+              питомцу сбросить лишний вес.
+            </p>
+            <a class="advertising-item__catalog" href="#">КАТАЛОГ SLIM</a>
+          </li>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+          <li class="advertising-item__inventory">
+            <h3 class="advertising-item__title">НАБОР МАССЫ</h3>
+            <p class="advertising-item__paragraph">
+              Заработать авторитет среди
+              дворовых котов и даже собак?
+              Серия Cat Energy Pro поможет
+              вашему коту нарастить
+              необходимые мыщцы!
+            </p>
+            <a class="advertising-item__catalog" href="#">КАТАЛОГ PRO</a>
+        </ul>
+      </section>
+      <section class="works">
+        <h2 class="works__title">Как это работает</h2>
+        <ul class="works__list">
+          <li class="works__item works__item--first">
+            <p class="works__description">
+              Функциональные питание
+              содержит только полезные
+              питательные вещества.</p>
+          </li>
+          <li class="works__item works__item--second">
+            <p class="works__description">Выпускаеться в виде порошка,
+              который нужно лишь залить
+              кипятком и готово.</p>
+          </li>
+          <li class="works__item works__item--third">
+            <p class="works__description">Замените один-два приема
+              обычной еды на наше
+              функциональное питание.</p>
+          </li>
+          <li class="works__item works__item--fourth">
+            <p class="works__description">Уже через месяц
+              наслаждаться изменениями
+              к лучшему вашего питомца!</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
+    <footer class="page-footer">
+      <div class="page-footer__footer-logo">
+        <a class="footer-logo">
+          <img src="img/logo-footer.svg" height="30px" width="130px" alt="Логотип">
+        </a>
+      </div>
+
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--fd" href="#"></a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--in" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="academy">
+        <a class="academy__logo-html" href="https://htmlacademy.ru/intensive/adaptive"></a>
+        <span class="academy__name">HTML Academy</span>
+      </div>
+    </footer>
   </body>
 </html>
